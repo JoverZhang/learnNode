@@ -1,0 +1,20 @@
+{
+  "name": "learnnode",
+  "version": "1.0.0",
+  "description": "Give myself learn node and typeScript.",
+  "main": "main.js",
+  "scripts": {
+    "main": "./node_modules/.bin/tsc && node ./src/main.js",
+    "serve": "nodemon -x ./node_modules/.bin/ts-node -- ./src/main.ts"
+  },
+  "repository": "https://github.com/JoverZhang/learnNode.git",
+  "author": "JoverZhang",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^12.11.7",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
